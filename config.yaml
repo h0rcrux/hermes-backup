@@ -2,7 +2,7 @@ model:
   default: MiniMax-M2.7
   provider: minimax-cn
   base_url: https://api.minimaxi.com/anthropic
-  api_key: sk-cp-pUJt56BD1luzlkzrcGHhU8OnIrxUYUEi3iQM0FpWHOtVmL9USm69-eau3kNaWru7kbGtwlLBE8vx_-__emsorhBLjiSZR-8l781zevtvulxhOM0DGffKi3s
+  api_key: 
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
@@ -327,13 +327,13 @@ custom_providers:
   model: gpt-5.4
 - name: NVIDIA NIM
   base_url: https://integrate.api.nvidia.com/v1
-  api_key: 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
+  api_key: 
   model: minimaxai/minimax-m2.7
 - name: NVIDIA NIM (Kimi)
   base_url: https://integrate.api.nvidia.com/v1
-  api_key: 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
+  api_key: 
   model: kimi-k2.5
-FEISHU_HOME_CHANNEL: oc_b9b82432721ff0ca0d4590c95b657044
+FEISHU_HOME_CHANNEL: 
 
 # ── Fallback Model ────────────────────────────────────────────────────
 # Automatic provider failover when primary is unavailable.
